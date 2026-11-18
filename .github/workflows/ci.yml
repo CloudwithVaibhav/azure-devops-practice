@@ -19,3 +19,9 @@ jobs:
 
       - name: Build
         run: echo "My first CI pipeline is working"
+        
+      - name: Check environment
+        run: |
+          echo "Operating system:"
+          uname -a
+          echo "Pipeline practice completed!"
